@@ -1,0 +1,9 @@
+alert('Bem vindo');
+let diaSemana = prompt('Digite o dia da semana de hoje');
+
+//estrutura de condição
+if(diaSemana == 'sabado' || diaSemana == 'domingo'){
+    alert("Feliz fim de semana!");
+}else{
+    alert("Boa semana");
+}
